@@ -1,0 +1,57 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "snapshots_LinuxHoneypot_name": {
+      "value": "LinuxHoneypot"
+    },
+    "virtualMachines_CarlsMachine_name": {
+      "value": "CarlsMachine"
+    },
+    "accounts_azuremonitorworkspace01_name": {
+      "value": "azuremonitorworkspace01"
+    },
+    "networkInterfaces_carlsmachine834_name": {
+      "value": "carlsmachine834"
+    },
+    "publicIPAddresses_CarlsMachine_ip_name": {
+      "value": "CarlsMachine-ip"
+    },
+    "virtualNetworks_CarlsMachine_vnet_name": {
+      "value": "CarlsMachine-vnet"
+    },
+    "dataCollectionRules_SecurityEvents_name": {
+      "value": "SecurityEvents"
+    },
+    "workspaces_LogAnalytics01_name": {
+      "value": "LogAnalytics01"
+    },
+    "networkSecurityGroups_CarlsMachine_nsg_name": {
+      "value": "CarlsMachine-nsg"
+    },
+    "scheduledqueryrules_Failed_Login_Attempt_name": {
+      "value": "Failed Login Attempt"
+    },
+    "networkSecurityGroups_CarlsLinuxServer_nsg_name": {
+      "value": "CarlsLinuxServer-nsg"
+    },
+    "networkSecurityGroups_CarlsLinuxServernsg565_name": {
+      "value": "CarlsLinuxServernsg565"
+    },
+    "solutions_Security_loganalytics01__name": {
+      "value": "Security(loganalytics01)"
+    },
+    "solutions_SecurityInsights_loganalytics01__name": {
+      "value": "SecurityInsights(loganalytics01)"
+    },
+    "solutions_SecurityCenterFree_LogAnalytics01__name": {
+      "value": "SecurityCenterFree(LogAnalytics01)"
+    },
+    "disks_CarlsLinuxServer_OsDisk_1_3d3c9b0b3bd44a118d2f92ca80d50c24_externalid": {
+      "value": "/subscriptions/<SubscriptionID>/resourceGroups/HONEYPOT-PROJECT/providers/Microsoft.Compute/disks/CarlsLinuxServer_OsDisk_1_3d3c9b0b3bd44a118d2f92ca80d50c24"
+    },
+    "dataCollectionEndpoints_azuremonitorworkspace01_externalid": {
+      "value": "/subscriptions/<SubscriptionID>/resourceGroups/MA_azuremonitorworkspace01_eastus_managed/providers/Microsoft.Insights/dataCollectionEndpoints/azuremonitorworkspace01"
+    }
+  }
+}
